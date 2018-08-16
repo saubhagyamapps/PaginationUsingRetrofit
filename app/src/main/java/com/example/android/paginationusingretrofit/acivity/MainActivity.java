@@ -1,4 +1,4 @@
-package com.example.android.paginationusingretrofit;
+package com.example.android.paginationusingretrofit.acivity;
 
 import android.os.Bundle;
 import android.os.Handler;
@@ -10,6 +10,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.ProgressBar;
 
+import com.example.android.paginationusingretrofit.R;
 import com.example.android.paginationusingretrofit.adepter.HomeAdepter;
 import com.example.android.paginationusingretrofit.adepter.util.PaginationScrollListenerLinear;
 import com.example.android.paginationusingretrofit.model.HomeModel;
