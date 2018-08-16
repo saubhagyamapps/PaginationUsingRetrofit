@@ -1,4 +1,4 @@
-package com.example.android.paginationusingretrofit.acivity;
+package com.example.android.paginationusingretrofit.activity;
 
 import android.os.Bundle;
 import android.os.Handler;
@@ -7,7 +7,6 @@ import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
-import android.view.View;
 import android.widget.ProgressBar;
 
 import com.example.android.paginationusingretrofit.R;
@@ -22,8 +21,6 @@ import java.util.List;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
-
-import static java.security.AccessController.getContext;
 
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MainActivity";
